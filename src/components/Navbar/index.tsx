@@ -20,24 +20,17 @@ const Navbar = () => {
   return (
     <nav>
       <div className="w-full flex justify-start ">
+        <NavButton id="#tex-app" text="Home" icon={<IconHome stroke={2} />} />{" "}
         <NavButton
-          id="#tex-app"
-          text="Home"
-          icon={<IconHome stroke={2} />}
-        />{" "}
-
-        <NavButton
-          id="#tex-proplem"
-          text="Problem"
+          id="#tex-solutions"
+          text="Solutions"
           icon={<IconWorldSearch stroke={2} />}
         />
-
         <NavButton
-          id="#tex-product"
-          text="Product"
+          id="#tex-products"
+          text="Products"
           icon={<IconBook stroke={2} />}
         />
-
         <NavButton
           id="#tex-about"
           text="About US"

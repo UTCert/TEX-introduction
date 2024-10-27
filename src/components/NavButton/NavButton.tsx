@@ -6,7 +6,7 @@ interface NavButtonProps {
   icon: any;
 }
 
-const NavButton: React.FC<NavButtonProps> = ({ id, text, icon, }) => {
+const NavButton: React.FC<NavButtonProps> = ({ id, text, icon }) => {
   return (
     <a
       href={id}

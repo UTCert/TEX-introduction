@@ -35,7 +35,7 @@ export default async function Home() {
         <section>
           <LampDemo></LampDemo>
         </section>
-        <section id="tex-proplem" className=" py-24 bg-grid-white/[0.04] ">
+        <section id="tex-solutions" className=" py-24 bg-grid-white/[0.04] ">
           <div className="mb-34">
             <SpotlightPreview />
           </div>
@@ -44,7 +44,7 @@ export default async function Home() {
         <section className="">
           <CanvasRevealEffectDemo3 />
         </section>
-        <section id="tex-product" className="bg-grid-white/[0.04] py-24">
+        <section id="tex-products" className="bg-grid-white/[0.04] py-24">
           <InfocardDemo />
         </section>
         <section id="tex-airdrop" className="z-40 bg-grid-white/[0.04] py-20">
