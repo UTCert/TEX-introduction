@@ -7,6 +7,7 @@ import { SpotlightPreview } from "@/components/Spotlight/SpotlightComponent";
 import { CanvasRevealEffectDemo } from "@/components/CanvasRevealEffect/CanvasRevealEffectDemo";
 import { CanvasRevealEffectDemo3 } from "@/components/CanvasRevealEffect/CanvasSection";
 import { InfocardDemo } from "@/components/Infocard/InfocardExample";
+import { InfoteamDemo } from "@/components/Infoteam/InfoteamExample";
 import { ContanctComponent } from "@/components/GlowingStars/ContactComponent";
 import { SpotlightAirdrop } from "@/components/Spotlight/SpotlightAirdrop";
 
@@ -34,7 +35,7 @@ export default async function Home() {
         <section>
           <LampDemo></LampDemo>
         </section>
-        <section className=" py-24 bg-grid-white/[0.04] ">
+        <section id="tex-proplem" className=" py-24 bg-grid-white/[0.04] ">
           <div className="mb-34">
             <SpotlightPreview />
           </div>
@@ -43,11 +44,17 @@ export default async function Home() {
         <section className="">
           <CanvasRevealEffectDemo3 />
         </section>
-        <section id="tex-info" className="bg-grid-white/[0.04] py-24">
+        <section id="tex-product" className="bg-grid-white/[0.04] py-24">
           <InfocardDemo />
         </section>
         <section id="tex-airdrop" className="z-40 bg-grid-white/[0.04] py-20">
           <SpotlightAirdrop />
+        </section>
+        <section id="tex-about" className="bg-grid-white/[0.04] py-24">
+          <h2 className="text-7xl mb-10 font-bold text-white text-center">
+            Meet Our Team
+          </h2>
+          <InfoteamDemo />
         </section>
         <section id="tex-contact" className="bg-grid-white/[0.04] p-12">
           <ContanctComponent />
