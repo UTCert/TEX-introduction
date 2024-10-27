@@ -10,7 +10,7 @@ export const Infoteam = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-20 max-w-12xl mx-auto ",
+        "grid md:auto-rows-[18rem] md:grid-cols-3 gap-10 max-w-12xl mx-auto ",
         className,
       )}
     >
@@ -40,7 +40,7 @@ export const InfoteamItem = ({
       )}
     >
       {header}
-      <div className="group-hover/bento:scale-105 transition duration-200">
+      <div className="grid place-items-center group-hover/bento:scale-105 transition duration-200">
         {icon}
         <div className="text-center font-sans font-bold  text-neutral-200 mb-2 mt-2">
           {title}

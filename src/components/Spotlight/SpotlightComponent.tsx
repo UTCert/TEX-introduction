@@ -10,7 +10,7 @@ export function SpotlightPreview() {
         "text-4xl md:text-7xl font-bold  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50",
     },
     {
-      text: "Problem",
+      text: "Solutions",
       className:
         "text-4xl md:text-7xl font-bold  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50",
     },

@@ -1,7 +1,7 @@
 "use server";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { HiMiniRocketLaunch } from "react-icons/hi2";
+// import { HiMiniRocketLaunch } from "react-icons/hi2";
 import Navbar from "../Navbar";
 import Link from "next/link";
 import DropdownMenu from "../Holomenu/DropdownMenu";

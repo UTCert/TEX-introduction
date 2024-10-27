@@ -4,15 +4,9 @@ import React, { useState } from "react";
 import NavButton from "../NavButton/NavButton";
 import {
   IconMenu,
-  IconGift,
-  IconRocket,
-  IconNotebook,
   IconHome,
-  IconSearch,
   IconBook,
   IconUser,
-  IconZoomExclamation,
-  IconZoomExclamationFilled,
   IconWorldSearch,
 } from "@tabler/icons-react";
 
@@ -45,14 +39,28 @@ const DropdownMenu = () => {
       {isOpen && (
         <ul className="dropdown-menu">
           <li className="w-full flex flex-1 ">
-            <NavButton id="#" text="Home" icon={<IconHome stroke={2} />} />{" "}
+            <NavButton id="#" text="Home" icon={<IconHome stroke={2} />} />
+          </li>
+          <li className="w-full flex flex-1 ">
             <NavButton
-              id=""
-              text="Problem"
+              id="#tex-solutions"
+              text="Solutions"
               icon={<IconWorldSearch stroke={2} />}
             />
-            <NavButton id="" text="Product" icon={<IconBook stroke={2} />} />
-            <NavButton id="" text="About US" icon={<IconUser stroke={2} />} />
+          </li>
+          <li className="w-full flex flex-1 ">
+            <NavButton
+              id="#tex-products"
+              text="Products"
+              icon={<IconBook stroke={2} />}
+            />
+          </li>
+          <li className="w-full flex flex-1 ">
+            <NavButton
+              id="#tex-about"
+              text="About US"
+              icon={<IconUser stroke={2} />}
+            />
           </li>
         </ul>
       )}

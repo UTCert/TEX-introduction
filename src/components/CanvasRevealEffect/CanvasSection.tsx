@@ -14,14 +14,14 @@ export function CanvasRevealEffectDemo3() {
       onMouseLeave={() => setHovered(false)}
       className="h-[60rem] flex flex-col lg:flex-row overflow-hidden items-center justify-center bg-black w-full gap-4 mx-auto px-8 relative"
     >
-      <p className="md:text-2xl text-2xl font-medium text-center text-white relative z-20 max-w-2xl mx-auto">
+      <div className="md:text-2xl text-2xl font-medium text-center text-white relative z-20 max-w-2xl mx-auto">
         Our goal is to develop a Blockchain network that can be applied to many
         areas of life including: education, healthcare, finance, identification,
         NFTs, etc. Our products bring practical value to all users, they are
         completely transparent,{""}
         <FlipWords words={Words} className="text-2xl font-medium text-white" />
         and secure. Stay tuned for our upcoming products!
-      </p>
+      </div>
       <AnimatePresence>
         {hovered && (
           <motion.div
