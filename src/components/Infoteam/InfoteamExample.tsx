@@ -47,7 +47,7 @@ const items = [
       "Technical Lead",
     icon: (
       <img
-        src="Bach.jpg"
+        src="Bach.JPG"
         alt="Trinh Xuan Bach"
         className="h-56 w-56 filter rounded-lg grayscale"
       />
@@ -71,7 +71,7 @@ const items = [
       "Business Analyst",
     icon: (
       <img
-        src="Minh.jpg"
+        src="Minh.JPG"
         alt="Le Dinh Minh"
         className="h-56 w-56 rounded-lg filter grayscale"
       />
